@@ -1,6 +1,12 @@
+import Header from "../components/moleculas/Header";
+
+
 function Home() {
     return ( 
-        <h1>Pagina Home</h1>
+        <>
+            <Header/>
+
+        </>
      );
 }
 
