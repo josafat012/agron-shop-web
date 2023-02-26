@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
+import Home from "../pages/Home.jsx";
 
 function App() {
 
   return (
     <BrowserRouter>
         <Routes>
-          <Route index element={<Home/>}></Route>
+          <Route index path="/" element={<Home/>}></Route>
 
         </Routes>
     
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
