@@ -1,0 +1,13 @@
+.footer-offline{
+    background: #746b45;
+    text-align: center;
+}
+
+.footer-offline .group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 5px 5px; */
+    padding-top: 5px;
+    padding-bottom: 10px;
+}

@@ -31,10 +31,13 @@
     transition: all 0.5s ease;
     color: black;
     border: 1px rgba(255, 255, 255, 0) solid;
+    font-style: normal;
 }
 
 .header-offline .link:hover {
-    background: #c7f7cf;
+    /* background: #c7f7cf; */
+    border-bottom: 1px red groove;
     border-radius: 20px;
-    border: 1px rgba(0, 0, 0, 0.149) solid;
+    /* border: 1px rgba(0, 0, 0, 0.149) solid; */
+    font-style: italic;
 }

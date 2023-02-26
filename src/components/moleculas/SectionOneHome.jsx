@@ -6,7 +6,7 @@ function SectionOneHome() {
         <div className="sectionOneHome">
             <div className='container'>
                 <h1>Todos los productos que necesitas para tu campo</h1>
-                <button>INICAR SESION</button>
+                <button>INICIAR SESION</button>
             </div>
         </div>
      );
