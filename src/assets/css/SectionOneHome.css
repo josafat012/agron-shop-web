@@ -1,0 +1,22 @@
+.sectionOneHome {
+    display: flex;
+    height: 60vh;
+    background: url('../imgs/fondo1.jpg');
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionOneHome button {
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 5%;
+}
+
+.sectionOneHome button:hover {
+    background: #ff7f7f;
+}

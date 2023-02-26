@@ -1,0 +1,29 @@
+.padre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: aqua;
+    width: 250px;
+}
+
+.primer-div{
+    display: flex;
+    /* border-bottom: 1px black solid; */
+}
+
+.segundo-div{
+    text-align: center;
+}
+
+.boton{
+    display: flex;
+    text-align: left;
+}
+
+.boton button{
+    width: 100px;
+    border: 1px black solid;
+    margin-left: auto;
+}

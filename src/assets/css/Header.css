@@ -4,6 +4,9 @@
     justify-content: space-between;
     font-family: sans-serif;
     background: #A9B895;
+    /* position: fixed; */
+    width: 100%;
+    /* z-index: 100; */
 }
 .header-offline div {
     margin-left: 3%;
@@ -26,6 +29,7 @@
     border-radius: 20px;
     text-decoration: none;
     transition: all 0.5s ease;
+    color: black;
     border: 1px rgba(255, 255, 255, 0) solid;
 }
 
