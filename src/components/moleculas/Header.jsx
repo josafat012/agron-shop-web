@@ -11,7 +11,7 @@ function Header() {
             <nav>
                 <input type="text" />
                 <Link className='link' to="/">HOME</Link>
-                <Link className='link' to="/cuenta">CUENTA</Link>
+                <Link className='link' to="/register">REGISTRO</Link>
                 <Link className='link' to="/servicios">SERVICIOS</Link>
             </nav>
         </div>
