@@ -1,7 +1,9 @@
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 import Title from "../atoms/TitleRegister";
 import WrapperInput from "../moleculas/WrapperInput";
+
 
 
 function LoginSection() {
@@ -17,15 +19,39 @@ function LoginSection() {
         const contrasena = formData.get('contrasena')
 
         if(!nombreUsuario || !contrasena) {
-            alert('Llena todos los  campos!');
+            // alert('Llena todos los  campos!');
+            Swal.fire(
+                'Espera',
+                'Aún no has llenado todos los campos',
+                'warning'
+              )
         } else{
             fetch(`http://35.170.116.164:3000/usuarios/${nombreUsuario}/${contrasena}`)
             .then(response => response.json())
             .then(data => {
-                alert(data.message);
-                if(data.message=='Has iniciado sesion 😀')
+                if(data.message=='Contraseña incorrecta'){
+                Swal.fire(
+                    data.message,
+                    'La contraseña que ingresaste no coincide con el usuario',
+                    'error'
+                  )
+                }
+                if(data.message=='Usuario no encontrado'){
+                    Swal.fire(
+                        data.message,
+                        'No hemos encontrado el usuario',
+                        'error'
+                      )
+                }
+                if(data.message=='Has iniciado sesion 😀'){
                 // alert('YYYYYYEEEEEEEEES!')
+                Swal.fire(
+                    data.message,
+                    'Has click para continuar',
+                    'success'
+                  )
                 navigate('/');
+                }
             })
         }
     }
