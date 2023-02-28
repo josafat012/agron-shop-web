@@ -50,7 +50,7 @@ function LoginSection() {
                     'Has click para continuar',
                     'success'
                   )
-                navigate('/');
+                navigate('/menu');
                 }
             })
         }

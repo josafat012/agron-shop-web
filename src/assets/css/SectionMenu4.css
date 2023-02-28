@@ -1,0 +1,57 @@
+
+.divfather{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.title1{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.divfather .divtext{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+   
+}
+
+.divfather .divtext .divtitle{
+    width: 354px;
+    height: 80px;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    margin-top: 5px;
+}
+
+.divfather .divtext .divtext2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.divfather .divtext .booton{
+    display: flex;
+    text-align: left;
+    
+}
+
+.divfather .divtext .booton button{
+    width: 128.05px;
+    height: 40px;
+    background-color: #A9B895;
+    border-radius: 100px;
+    margin-left: auto;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.divfather .divtext .booton button:hover{
+    background-color: #7CA86E;
+}

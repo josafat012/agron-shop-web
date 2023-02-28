@@ -1,0 +1,45 @@
+.padre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #F2F1EC;
+    width: 350px;
+    height: 357px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.primer-div{
+    display: flex;
+    
+    /* border-bottom: 1px black solid; */
+}
+
+
+
+.segundo-div{
+    text-align: center;
+}
+
+.boton{
+    display: flex;
+    text-align: left;
+    
+}
+
+.boton button{
+    width: 128.05px;
+    height: 40px;
+    background-color: #A9B895;
+    border-radius: 100px;
+    margin-left: auto;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.boton button:hover{
+    background-color: #7CA86E;
+}
