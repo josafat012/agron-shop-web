@@ -4,6 +4,7 @@ import Register from "../pages/Register.jsx";
 import Login from "../pages/Login.jsx";
 import Menu from "../pages/Menu.jsx";
 import Swal from "sweetalert2";
+import Tienda from "../pages/Tienda.jsx";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/register" element={<Register/>}></Route>
           <Route path="/login" element={<Login/>}></Route>
           <Route path="/menu" element={<Menu/>}></Route>
+          <Route path="/tienda" element={<Tienda/>}></Route>
 
         </Routes>
     

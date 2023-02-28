@@ -10,8 +10,8 @@ function NavMenu() {
             </div>
             <nav>
                 <input type="text" />
-                <Link className='link' to="/">HOME</Link>
-                <Link className='link' to="/cuenta">CUENTA</Link>
+                <Link className='link' to="/menu">HOME</Link>
+                <Link className='link' to="/menu">CUENTA</Link>
                 <div>
                 <ul className="opdesple">
                     <li><Link className="link">SERVICIOS</Link>
