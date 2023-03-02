@@ -26,7 +26,7 @@ function LoginSection() {
                 'warning'
               )
         } else{
-            fetch(`http://35.170.116.164:3000/usuarios/${nombreUsuario}/${contrasena}`)
+            fetch(`https://agronshop.iothings.com.mx/usuarios/${nombreUsuario}/${contrasena}`)
             .then(response => response.json())
             .then(data => {
                 if(data.message=='Contraseña incorrecta'){

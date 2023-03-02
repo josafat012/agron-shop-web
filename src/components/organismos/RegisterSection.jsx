@@ -10,7 +10,7 @@ function RegisterSection() {
     const handlerClick = (e) => {
         e.preventDefault();
         const formData = new FormData(form.current);
-        let URI = 'http://35.170.116.164:3000/usuarios';
+        let URI = 'https://agronshop.iothings.com.mx/usuarios/';
         let options = {
             method: 'POST',
             headers:{"Content-Type":"application/json",},
