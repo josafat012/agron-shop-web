@@ -1,16 +1,17 @@
-import FromMenu from "../components/moleculas/FromMenu";
-import SectionMenu2 from "../components/moleculas/SectionMenu2";
-import SectionMenu3 from "../components/moleculas/SectionMenu3";
-import SectionMenu4 from "../components/moleculas/SectionMenu4";
-import FooterMenu from "../components/moleculas/FooterMenu";
+import Footer from "../components/moleculas/Footer";
+import HeaderZ from "../components/moleculas/HeaderZ";
+import MenuD1 from "../components/moleculas/MenuD1";
+import MenuD2 from "../components/moleculas/MenuD2";
+import MenuD3 from "../components/moleculas/MenuD3";
+
 function Menu() {
     return ( 
         <>
-        <FromMenu/>
-        <SectionMenu2/>
-        <SectionMenu3/>
-        <SectionMenu4/>
-        <FooterMenu/>
+            <HeaderZ/>
+            <MenuD1/>
+            <MenuD2/>
+            <MenuD3/>
+            <Footer/>
         </>
      );
 }

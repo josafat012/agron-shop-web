@@ -1,0 +1,18 @@
+.menu-div-uno{
+    width: 100%;
+    height: 30vh;
+    background: url("../imgs/fondo4.png");
+    background-size: 100% 100%;
+}
+
+.menu-div-uno__add{
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-div-uno{
+        height: 80vh;
+    }
+}

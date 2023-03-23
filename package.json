@@ -1,5 +1,5 @@
 {
-  "name": "agron-shop-web",
+  "name": "agronshop-web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,12 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1",
-    "styled-components": "^5.3.6",
-    "sweetalert2": "^11.7.2"
+    "react-router-dom": "^6.9.0",
+    "styled-components": "^5.3.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

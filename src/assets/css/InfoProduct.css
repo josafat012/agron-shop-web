@@ -1,0 +1,132 @@
+.info-father{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 10%;
+    
+   
+}
+.part-one{
+    text-align: center;
+    
+    
+}
+.part-one .img-info{
+    width: 700px;
+    height: 400px;
+
+}
+.info{
+   display: flex;
+}
+
+.three-div{
+    text-align: center;
+}
+
+.two-div{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+   
+    
+}
+
+.two-div h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.two-div p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.part-four{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.buttonsito{
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: #D5C8BB;
+    color: black;
+    border-radius: 40px;
+    padding: 10px 55px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+@media (max-width: 740px){
+
+    .info-father{
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 90%;
+        height: 600px;
+        align-items: center;
+        margin-bottom: 10%;
+       
+    }
+    .part-one{
+        text-align: center;
+    }
+
+    .part-one .img-info{
+        width: 400px;
+        height: 150px;
+    
+    }
+
+    .info{
+       display: flex;
+    }
+    
+    .three-div{
+        text-align: center;
+    }
+    
+    .two-div{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    .two-div h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .two-div p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .part-four{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .part-five{
+        display: flex;
+    }
+    .buttonsito{
+        
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        background-color: #D5C8BB;
+        color: black;
+        border-radius: 40px;
+        padding: 5px 25px;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+
+}

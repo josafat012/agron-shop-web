@@ -1,12 +1,24 @@
-import HeaderTienda from "../components/moleculas/HeaderTienda";
-import SectionTienda1 from "../components/moleculas/SectionTienda1";
+import HeaderY from "../components/moleculas/HeaderY";
+import CatTienda from "../components/organismos/CatTienda";
+import Footer from "../components/moleculas/Footer";
+
 function Tienda() {
     return ( 
-        <>
-        <HeaderTienda/>
-        <SectionTienda1/>
-        </> 
-    
+       <>
+       
+        <HeaderY/>
+       
+
+       
+        <CatTienda/>
+
+
+       
+
+       
+        <Footer/>
+       
+       </>
     );
 }
 

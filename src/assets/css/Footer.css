@@ -1,14 +1,35 @@
-.footer-offline{
-    background: #D5C8BB;
+footer {
+    height: 15vh;
+    background-color: #D5C8BB;
     text-align: center;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-offline .group {
+footer h3{
+    padding: 10px 0;
+}
+
+.footer-div-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    /* margin: 5px 5px; */
-    padding-top: 5px;
-    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.footer-div-container__imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-div-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.footer-div-footer__containers{
+    width: 30%;
 }
