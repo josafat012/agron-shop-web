@@ -1,4 +1,4 @@
-import img1 from "../../assets/imgs/image 44.png"
+import img1 from "../../assets/imgs/catcuidados1.png"
 import "../../assets/css/MenuD3.css";
 
 function MenuD3() {

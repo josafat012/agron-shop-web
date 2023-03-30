@@ -1,4 +1,4 @@
-import InfoProduct from "../atomos/InfoProduct";
+import InfoProduct from "../moleculas/InfoProduct";
 
 
 function InformaProduct() {

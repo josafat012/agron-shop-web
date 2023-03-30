@@ -64,7 +64,7 @@ function HeaderY() {
                                 </li>
 
                                 <li className="dropdown_li">
-                                    <Link to="#" className="dropdown_anchor">Cuidados</Link>
+                                    <Link to="/cuidado" className="dropdown_anchor">Cuidados</Link>
                                 </li>
 
                                 <li className="dropdown_li">
@@ -104,10 +104,10 @@ function HeaderY() {
                     <div>
                         <ul >
                             <li>
-                                <Link to="/registro">Servicios</Link>
+                                <Link to="#">Servicios</Link>
                                 <ul>
                                     <li><Link to="/tienda">Tienda</Link></li>
-                                    <li><Link to="/registro">Cuidados</Link></li>
+                                    <li><Link to="/cuidado">Cuidados</Link></li>
                                     <li><Link to="/galeria">Galeria</Link></li>
                                 </ul>
                             </li>

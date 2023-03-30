@@ -65,7 +65,6 @@
 
 .buy-product{
     display: block;
-    
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     background-color: #D5C8BB;
@@ -73,10 +72,24 @@
     border-radius: 40px;
     padding: 10px 55px;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 /*parte del div padre de todos*/
 .div-father-supreme{
     display: flex;
+}
+
+/*estilos de la compra*/
+.div-father-compra{
+    margin-top: 10px;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+   
+    width: 50%;
 }
 
 /*diseño responsive*/

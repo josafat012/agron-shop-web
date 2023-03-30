@@ -85,7 +85,7 @@ function HeaderZ() {
                     </li> */}
 
                     <li className="dropdown__list">
-                        <Link to="/login" className="dropdown__link">
+                        <Link to="/" className="dropdown__link">
                             <img src={imgHelp} className="dropdown__icon"/>
                             <span className="dropdown__span">Home</span>
                         </Link>
@@ -111,7 +111,7 @@ function HeaderZ() {
                                 </li>
 
                                 <li className="dropdown_li">
-                                    <Link to="#" className="dropdown_anchor">Cuidados</Link>
+                                    <Link to="cuidado" className="dropdown_anchor">Cuidados</Link>
                                 </li>
 
                                 <li className="dropdown_li">
@@ -146,15 +146,15 @@ function HeaderZ() {
                         <Link to="/">Cuenta</Link>
                     </div>
                     <div>
-                        <Link to="/login">Home</Link>
+                        <Link to="/">Home</Link>
                     </div>
                     <div>
                         <ul >
                             <li>
-                                <Link to="/registro">Servicios</Link>
+                                <Link to="#">Servicios</Link>
                                 <ul>
                                     <li><Link to="/tienda">Tienda</Link></li>
-                                    <li><Link to="/registro">Cuidados</Link></li>
+                                    <li><Link to="/cuidado">Cuidados</Link></li>
                                     <li><Link to="/galeria">Galeria</Link></li>
                                 </ul>
                             </li>

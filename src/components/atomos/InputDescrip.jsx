@@ -1,11 +1,11 @@
 import "../../assets/css/SubirProduct.css";
 
-function InputDescrip() {
+function InputDescrip({Input2}) {
     return ( 
         <div className="input-father">
            
 
-            <h5>Descripcion</h5>
+           <label >{Input2}</label>
             <input type="text" className="input-content descri"/>
 
         </div>

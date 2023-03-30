@@ -1,16 +1,16 @@
-import CategoriaTienda from "../atomos/CategoriaTienda";
+import CategoriaTienda from "../moleculas/CategoriaTienda";
 import ProductTienda from "../moleculas/ProductTienda";
 import "../../assets/css/Tienda.css";
 
 function CatTienda() {
     return ( 
-        <>
+        
         <div className="div-father-supreme">
          <CategoriaTienda/>
          <ProductTienda/>
         </div>
         
-        </>
+        
      );
 }
 

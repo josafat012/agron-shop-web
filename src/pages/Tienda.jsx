@@ -7,15 +7,7 @@ function Tienda() {
        <>
        
         <HeaderY/>
-       
-
-       
         <CatTienda/>
-
-
-       
-
-       
         <Footer/>
        
        </>

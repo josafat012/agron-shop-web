@@ -1,10 +1,10 @@
 import "../../assets/css/SubirProduct.css";
 
-function InputNom() {
+function InputNom({Input1}) {
     return ( 
         <div className="input-father">
-            <h5>Nombre Del Producto</h5>
-            <input type="text" className="input-content"/>
+            <label >{Input1}</label>
+            <input  type="text" className="input-content"/>
         </div>
      );
 }

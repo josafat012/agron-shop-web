@@ -1,10 +1,10 @@
 import "../../assets/css/SubirProduct.css";
 
-function InputPrecio({Input}) {
+function InputPrecio({Input3}) {
     return ( 
         <div className="input-father">
           
-            <h5>Precio</h5>
+          <label >{Input3}</label>
             <input type="text" className="input-content" />
 
         </div>
